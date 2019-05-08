@@ -1,0 +1,91 @@
+@import url(https://use.fontawesome.com/releases/v5.6.3/css/all.css);
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700|Open+Sans:300,400,600,700,800');
+
+body {
+  background-color: rgba(246, 206, 214, .2);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+h1 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 50px;
+  text-shadow: 5px 5px #ef4b54, 0px 2px 24px #ef4b54;
+  border-color: #f6ced6;
+  border-width: 10px;
+}
+
+h3 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #ef4b54;
+  font-weight:300;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ef4b54;
+  border-width: 3px
+}
+
+.white-container {
+  text-align: center;
+  background-color: white;
+  margin: 40px auto;
+  padding: 40px;
+  width: 70vw;
+  border-color: #f6ced6;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #ef4b54;
+  background-color: white;
+}
+
+a:hover {
+  color: ##ef4b54;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.fab {
+  font-size: 40px;
+  color: #ef4b54;
+  display: inline-block;
+}
+
+.fab:hover {
+  color: #f6ced6;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+
+  h1 {
+    line-height: 60px;
+  }
+}
+
